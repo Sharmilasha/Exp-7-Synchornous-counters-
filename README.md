@@ -57,6 +57,7 @@ Developed by: A.Sharmila
 RegisterNumber: 212221230094
 */
 ## UP COUNTER:
+```
 module ex6(input CLK,input reset,output[0:3]counter);
 reg[0:3]counter_up;
 always@(posedge CLK or posedge reset)
@@ -69,7 +70,8 @@ end
 assign counter=counter_up;
 endmodule
 
-##Down COUNTER
+##Down COUNTER:
+```
 module ex6b(input CLK,input reset,output[0:3]counter);
 reg[0:3]counter_down;
 always@(posedge CLK or posedge reset)
