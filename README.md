@@ -96,7 +96,7 @@ end
 assign counter=counter_down;
 endmodule
 
-```
+
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
