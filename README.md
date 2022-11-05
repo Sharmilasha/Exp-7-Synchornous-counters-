@@ -70,7 +70,7 @@ end
 assign counter=counter_up;
 endmodule
 
-##Down COUNTER:
+## Down COUNTER:
 ```
 module ex6b(input CLK,input reset,output[0:3]counter);
 reg[0:3]counter_down;
